@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>RefPod</title>
+
+    <base href="/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >        
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="app/assets/stylesheets/bootstrap-material-design.css">
+    <link rel="stylesheet" href="app/assets/stylesheets/styles.css">
+    <link rel="stylesheet" href="app/assets/stylesheets/owl.carousel.css">
+    <link rel="stylesheet" href="app/assets/stylesheets/media.css">
+    <link rel="stylesheet" href="app/assets/stylesheets/select2.min.css">
+    
+
+    <!--<link rel="stylesheet" href="app/assets/stylesheets/owl.theme.css"> -->
+    
+    <script type="text/javascript" src="app/assets/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="app/assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="app/assets/js/select2.full.js"></script>
+
+    <script type="text/javascript" src="app/assets/js/scrollIt.js"></script>
+    <script type="text/javascript" src="app/assets/js/jquery.nouislider.min.js"></script> 
+    
+    
+    <script type="text/javascript" src="app/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app/assets/js/bootstrap-editable.js"></script>
+    <script type="text/javascript" src="app/assets/js/ripples.min.js"></script> 
+    <script type="text/javascript" src="app/assets/js/material.min.js"></script> 
+    <script type="text/javascript" src="app/assets/js/snackbar.min.js"></script>
+
+    <script type="text/javascript" src="app/assets/js/jquery.dropdown.js"></script> 
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+
+  <script type="text/javascript" src="app/assets/js/common.js"></script>
+  <script>
+    if($(document).width() <= 1024) {
+      $('body').on('focus click',function(){
+      $(".navbar-fixed-top").addClass('top-nav-collapse')
+      });
+    }
+  </script>
+
+</html>
