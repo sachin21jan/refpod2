@@ -1,0 +1,408 @@
+@media screen and (min-width:240px) and (max-width:1279px) {
+body { -webkit-text-size-adjust: none; }
+input, textarea, button, select { appearance: none; -moz-appearance: none; -webkit-appearance: none; }
+input[type="radio"] { appearance: radio; -moz-appearance: radio; -webkit-appearance: radio; }
+input[type="checkbox"] { appearance: checkbox; -moz-appearance: checkbox; -webkit-appearance: checkbox; }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+.hd-srch { width: 320px; }
+.container { width: 98%; }
+.navbar .navbar-brand { padding-left: 0; padding-right: 0; }
+.ft-blk3 a { margin: 0 3px; }
+.jobpost-detail-blk { width: 50%; text-align: left; }
+.navbar .navbar-nav > li > a { padding-right: 5px; }
+.jobpost-detail-blk.txtctr { text-align: right; }
+.user-profile-l { width: 170px; }
+.user-profile-l img { width: 100%; }
+.user-profile-r { width: 415px; }
+h1.page-hd { font-size: 22px; }
+.profile-lst { font-size: 16px; }
+.time-block3 { width: auto; float: none; clear: both; margin-bottom: 15px; text-align: left; }
+.frd-cnt-social-btn ul li.social-mrgn { margin: 0 5px; }
+.frd-cnt-social-btn ul li { width: 32.6%; }
+a.google-btn, a.facebook-btn, a.linkedin-btn { font-size: 14px; }
+.frd-lst { padding: 5px; }
+.frd-lst ul li { margin: 5px; width: 48.3%; }
+.frd-det { width: 175px; }
+.frd-srch-blk1 { width: 69%; }
+.list-group-item-heading.fl, .fr.jobpost-time { float: none !important; margin-top: 0; margin-bottom: 5px; }
+.postjob-block1 { width: 266px; margin-right: 20px; }
+.postjob-block2 { width: auto; float: none; clear: both; }
+.postjob-inner { width: 266px; margin-right: 10px; }
+.multiplepost-l { width: 55%; }
+.multiplepost-r { width: 40%; }
+.howitwork-img1 img { width: 100%; }
+.salary-drop { width: 86%; }
+/*---home page css---*/
+.howitworks .container { width: 100%; padding: 30px 0; }
+.featu-emplo { padding: 30px 0; }
+.client-testi { padding: 30px 0; }
+.contact-section { padding: 30px 0; }
+.h1title { margin-bottom: 30px; }
+.howit-box { height: auto; }
+.owl-prev { left: 0; }
+.owl-next { right: 0; }
+.home-block .navbar-header { width: 109px; }
+.banner-cnt-lt { margin-top: 68px; }
+.signup-btn { margin: 0 15px; width: auto; display: block; }
+.howit-box { background: none; }
+.howit-icon-bx { margin-top: 0px; }
+.client-testi .container { width: 100%; }
+.home-banner { height: 530px !important; }
+.howitworks .row { margin: 0; }
+.featu-emplo .owl-carousel .owl-item img { margin: 0px auto; padding: 20px 0; }
+.home-banner-cnt h1 { font-size: 34px; }
+.expertise-cnt ul li { width: auto; }
+.cmp-blk1 { width: 50%; float: left; }
+.cmp-blk1 a { float: none; }
+.cmp-blk2 { float: left; width: 50%; }
+.cmp-blk2 a { float: none; }
+.home-banner-cnt { margin-top: 83px; }
+.case-study .owl-prev { left: -25px; }
+.case-study .owl-next { right: -25px; }
+.value-benefit-1, .value-benefit-2, .value-benefit-3, .value-benefit-4 { width: 230px; }
+.value-benefit-1 { left: -55px; }
+.value-benefit-2 { right: -60px; }
+.value-benefit-3 { left: -55px; }
+.value-benefit-4 { right: -60px; }
+.valuebenefit-desc { font-size: 14px; }
+.value-benefit-cnt { margin-top: 50px; margin-bottom: 150px; }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+body { font-size: 14px; }
+.container { width: 98%; }
+.navbar .dropdown-menu li > a, .navbar.navbar-default .dropdown-menu li > a { font-size: 14px; }
+ul.lft-lst li a { font-size: 16px; }
+.hd-srch { width: 215px; }
+.navbar .navbar-brand { padding-left: 0; padding-right: 0; padding-top: 15px; }
+.ft-blk3 a { margin: 0 3px; font-size: 13px; }
+.ft-blk1 img { width: 100%; margin-top: 5px; }
+.ft-blk2 { white-space: nowrap; }
+.navbar-header { width: 160px; }
+.navbar-header img { width: 100%; }
+.nav > li > a { padding-left: 10px; padding-right: 10px; }
+.list-group .list-group-item .list-group-item-heading { font-size: 16px; }
+.jobpost-detail-blk { width: 50%; text-align: left; }
+.jobpost-detail-blk.txtctr { text-align: right; }
+.jobpost-l, .jobpost-r { width: auto; float: none; text-align: left; }
+a.moredetails-link { display: block; margin-top: 5px; }
+.user-profile-l { margin-bottom: 20px; }
+.user-profile-r { width: 68%; }
+h1.page-hd { font-size: 22px; }
+.profile-lst { font-size: 16px; }
+.profile-half a.btn-cmn-sml { margin-right: 50px; }
+.time-block1 { width: 47%; }
+.time-block3 { width: auto; float: none; clear: both; margin-bottom: 15px; text-align: left; }
+.frd-cnt-social-btn ul li { width: auto; float: none; display: inline-block; vertical-align: middle; margin: 5px 0; }
+.frd-cnt-social-btn ul li.social-mrgn { margin: 0 5px; }
+.frd-cnt-social-btn { text-align: center; }
+.frd-lst ul li { width: 47%; }
+.frd-det { width: 69%; }
+.profile-half .btn-cmn-sml.fr { margin-bottom: 0px; margin-top: -7px; }
+.frd-srch-blk1 { width: 73.9%; }
+.frd-srch .btn-default { margin-bottom: 0px; }
+.date-attended .time-block1 { width: 30%; margin-bottom: 0px; }
+.list-group-item-heading.fl, .fr.jobpost-time { float: none !important; margin-top: 0; margin-bottom: 5px; }
+.btn, .input-group-btn .btn { margin-bottom: 10px; }
+.postjob-block1 { width: 260px; }
+.multiplepost-l { width: auto; float: none; padding-top: 0; }
+.multiplepost-r { float: none; margin: auto; }
+.upload-download-cnt { margin-bottom: 30px; }
+.postjob-inner-small { width: 160px; }
+.salary-drop { width: 86%; }
+/*---home page css---*/
+.howitworks .container { width: 100%; padding: 30px 0; }
+.howit-box { height: auto; }
+.owl-prev { left: 15px; display: block !important; }
+.owl-next { right: 15px; display: block !important; }
+.home-block .navbar-header { width: 109px; }
+.banner-cnt-lt { margin-top: 68px; }
+.signup-btn { margin: 0 15px; width: auto; display: block; }
+.howit-box { background: none; }
+.howit-icon-bx { margin-top: 0px; }
+.client-testi .container { width: 100%; }
+.client-testi .item p { width: 80%; }
+.home-banner { height: 530px !important; }
+.arrow-lt-client { margin-left: 0px; }
+.contact-section .container { width: 100%; }
+.howitworks .row { margin: 0; }
+.home-block br { display: none; }
+.home-block .navbar-inverse .navbar-nav > li > a { font-size: 15px !important }
+.home-block .navbar-brand { width: 17%; }
+.home-block .navbar-brand > img { width: 100%; }
+.banner-cnt-lt { width: 56%; }
+.featu-emplo .owl-carousel .owl-item img { margin: 0px auto; padding: 25px 0; }
+.home-banner-cnt h1 { font-size: 36px; }
+.h1title em { display: table; margin: 12px auto 0 auto; }
+.contact-section { padding-bottom: 20px; }
+.featu-emplo { padding: 30px 0; }
+.client-testi { padding: 30px 0; }
+.contact-section { padding: 30px 0; }
+.h1title { margin-bottom: 30px; }
+.howit-box .col-md-3.col-sm-3 { width: 50%; float: left; min-height: 310px; }
+.user-lt { display: none; }
+.user-rt { width: 100%; }
+.expertise-cnt ul li { width: auto; }
+.home-banner-cnt { margin-top: 83px; }
+.case-study .owl-prev { left: -22px; }
+.case-study .owl-next { right: -22px; }
+.value-benefit { width: auto; }
+.value-benefit-cnt { background-size: 60%; }
+.value-benefit-1, .value-benefit-2, .value-benefit-3, .value-benefit-4 { width: 230px; }
+.value-benefit-1 { left: -15px; top: 14px; }
+.value-benefit-2 { right: -20px; top: 20px; }
+.value-benefit-3 { left: -20px; top: 240px; }
+.value-benefit-4 { right: 0; top: 236px; }
+.valuebenefit-desc { font-size: 14px; }
+.value-benefit-cnt { margin-top: 50px; margin-bottom: 150px; }
+}
+ @media screen and (min-width:200px) and (max-width:767px) {
+body { font-size: 14px; }
+.container { width: 98%; }
+.navbar .dropdown-menu li > a, .navbar.navbar-default .dropdown-menu li > a { font-size: 14px; }
+ul.lft-lst li a { font-size: 16px; }
+.navbar .navbar-brand { padding-left: 0; padding-right: 0; }
+.navbar-toggle { margin-right: 0; margin-top: 13px; }
+#hd { height: auto; }
+.navbar-collapse.navbar-responsive-collapse.fr { float: none !important; }
+.navbar .navbar-collapse, .navbar .navbar-form { border: none; box-shadow: none; }
+.hd-srch { width: auto; }
+#md.PT40.PB40 { padding-top: 120px !important; padding-bottom: 20px !important; }
+.lft-bx { margin-bottom: 20px; }
+h2.pg-hd { font-size: 20px; margin-bottom: 10px; }
+.userpg-drop.fr { float: none !important; clear: both; text-align: center; }
+.jobpost-lst .row-picture { display: block; text-align: center; width: 100%; padding-right: 0; }
+.jobpost-lst .row-picture img { margin: auto; margin-bottom: 10px; }
+.jobpost-lst .list-group .list-group-item .row-content { width: 100%; display: block; text-align: center; }
+.list-group .list-group-item .list-group-item-heading { font-size: 16px; line-height: 20px; float: none !important; }
+.fr.jobpost-time { float: none !important; text-align: center; margin-bottom: 10px; clear: both; }
+.jobpost-detail-blk { width: auto; float: none; text-align: center; }
+.jobpost-desc h3, .jobpost-desc ul { text-align: left; }
+.jobpost-l, .jobpost-r { width: auto; float: none; text-align: center; }
+.jobpost-r { margin-top: 10px; }
+.jobpost-r a { font-weight: 700; color: #000; }
+.btn-ico { margin-right: 10px; }
+#ft { text-align: center; }
+#ft, .push { height: auto; }
+#mnwrp { margin: auto; }
+.ft-blk1 { margin-bottom: 5px; }
+.ft-blk2, .ft-blk3 { text-align: center; line-height: normal; }
+.ft-blk3 a { margin: 0 3px; }
+.navbar-form { padding: 0; }
+ul.dropdown-menu { background: #23a4e6 !important; }
+ul.dropdown-menu li:hover { background: #0c97df !important; }
+.navbar .dropdown-menu li > a, .navbar.navbar-default .dropdown-menu li > a { padding: 6px 12px; }
+.list-group .list-group-item .row-picture, .list-group .list-group-item .row-action-primary { padding-right: 0; }
+.jobpost-desc { border-top: none; }
+.inner-header .navbar-collapse.navbar-responsive-collapse.collapse { display: block; }
+.inner-header .navbar .navbar-toggle { display: none; }
+.inner-header .mobile-hide { display: none; }
+.inner-header ul.nav.navbar-nav.navbar-right { position: absolute; top: -5px; right: 10px; }
+.inner-header ul.nav.navbar-nav.navbar-right li { display: inline-block; vertical-align: middle; }
+.inner-header ul.nav.navbar-nav.navbar-right li a { padding: 5px; }
+.inner-header .navbar-brand > img { width: 170px; }
+.inner-header img.user-img { width: 40px; }
+.inner-header .navbar .navbar-form { margin-top: 5px; }
+.inner-header .navbar-nav .open .dropdown-menu { position: absolute; top: 35px; left: auto; right: 0; border-radius: 5px; box-shadow: 0px 0 3px rgba(0,0,0,.1); }
+ul.dropdown-menu li { display: block !important; }
+ul.dropdown-menu li a { padding: 7px 10px !important; }
+a.moredetails-link { display: block; margin-top: 5px; }
+.import-btn { margin: auto; }
+.user-profile-l { float: none; margin: auto; margin-bottom: 10px; }
+.user-profile-r { width: auto; float: none; }
+h1.page-hd { font-size: 22px; text-align: center; padding-right: 0; }
+.btn-cmn-sml { float: none !important; margin-bottom: 5px; display: block; width: 100px; }
+.profile-lst { font-size: 16px; }
+.profile-lst { line-height: 23px; }
+.profile-half { width: auto; float: none !important; }
+a.hd-link { float: none; display: block; margin-bottom: 10px; margin-top: 0; clear: both; }
+.skill-lst .btn-default { font-size: 13px; padding: 8px; line-height: 30px; }
+.time-block1 { width: auto; float: none; }
+.time-block2 { display: none; }
+.time-block3 { width: auto; float: none; clear: both; text-align: left; margin-bottom: 10px; }
+.form-btn { text-align: center; }
+.form-btn a { margin: 0 5px; }
+.date-attended .time-block1 { width: auto; }
+.time-block1 #dropdown-menu { margin-bottom: 10px; }
+.frd-cnt-social-btn ul li { width: auto; float: none; margin: 5px 0 !important; }
+.frd-lst { padding: 5px; }
+.frd-lst ul li { width: auto; float: none; margin: 5px; }
+.frd-img { float: none; margin: auto; margin-bottom: 10px; }
+.frd-det { width: auto; float: none; text-align: center; }
+.frd-lst-det { min-height: inherit; padding: 10px; }
+.frd-srch-blk1 { width: auto; float: none; margin-right: 0; margin-bottom: 10px; }
+.success-msg { clear: both; display: block; margin-top: 10px; }
+.frd-block1 { margin-bottom: 5px; margin-right: 5px; width: 48%; }
+.myaccount-drop { top: 43px !important; }
+.frd-block2 { width: 98%; margin-right: 5px; }
+.post-job a { margin-top: 0; }
+.company-job-info { margin: auto; margin-bottom: 10px; }
+.btn, .input-group-btn .btn { margin-top: 3px; margin-bottom: 3px; }
+.cmp-blk1 a, .cmp-blk2 a { width: 50%; }
+.more-menu { top: 90px; }
+.expertise-cnt ul li { width: auto !important; float: none !important; margin: 0 !important; }
+.postjob-block1 { width: 174px; }
+.multiplepost-l { width: auto; float: none; padding-top: 0; }
+.multiplepost-r { float: none; margin: auto; }
+.upload-download-cnt { margin-bottom: 30px; }
+.postjob-block1 { width: auto; float: none; margin-right: 0; }
+.postjob-block2 { width: auto; float: none; }
+.postjob-inner { width: auto; float: none; margin-right: 0; }
+.mobile-hide { display: none !important; }
+.salary-drop { margin-left: 0; width: 100%; padding-left: 35px; }
+.dollor-sign { position: absolute; top: 0; left: 0; z-index: 99; }
+.multiplepost-l { width: auto; float: none; padding-top: 0; }
+.multiplepost-r { width: auto; float: none; }
+.postjob-inner-small { width: auto; float: none; }
+.btn-blue { margin-right: 10px; }
+.btn-green { margin-right: 10px; }
+.modal.in .modal-dialog, .modal-content { overflow: auto; }
+.modal { position: absolute; left: 0; }
+.modal.in .modal-dialog, .modal-content { height: 335px; overflow: hidden; overflow-y: auto; }
+.modal-footer { position: inherit; }
+.modal-footer { background: #fff; }
+.modal-content .modal-body { height: auto; padding-bottom: 20px; }
+.frd-srch-blk2 { width: 170px; margin: auto; float: none; }
+.modal-footer { padding-top: 0 !important; }
+.skill-lst a { min-width: inherit; display: inline-block; vertical-align: top; }
+.dropdownjs { text-align: left; }
+/*---home page css---*/
+.home-block .navbar .navbar-toggle { display: block; top: 0; right: 0; position: absolute; }
+.home-block .navbar-header .collapsing { width: 100%; margin: 0; }
+.home-block .collapsing .navbar-nav { top: 0; }
+.home-block #bs-example-navbar-collapse-1 { width: 100%; margin: 0; padding: 0; }
+.home-block #bs-example-navbar-collapse-1 ul li { width: 100%; }
+.home-block .collapse.in ul.nav.navbar-nav.navbar-right { top: 50px !important; }
+.home-block .navbar-nav > li { display: block !important; padding: 0 }
+.home-block .navbar-collapse ul.nav.navbar-nav.navbar-right { left: 0; margin: 0; width: 100% !important; background: #3b3d41; padding: 10px 0; }
+.navbar-fixed-top.top-nav-collapse { background: #3b3d41 !important; }
+.home-block ul.nav.navbar-nav.navbar-right li a { padding: 9px 16px; }
+.home-block .navbar-nav li:last-child a { line-height: normal; padding: 5px 5px !important; margin: 0 14px; }
+.home-banner-cnt { margin-top: 40px; }
+.banner-cnt-lt { margin-top: 30px; }
+.home-banner-cnt h1 { font-size: 26px; }
+.home-banner-cnt p { font-weight: 500; font-size: 16px; }
+.home-block br { display: none; }
+.sign-box { width: 100%; }
+.banner-cnt-rt { width: 100%; margin: 25px 0; }
+.sign-btn { width: 100%; }
+.signup-btn { display: block; width: auto; margin: 0 20px; }
+.howitworks .container { width: 100%; padding: 30px 0; }
+.h1title { margin-bottom: 30px; font-size: 28px; }
+.howit-box { background: none; height: auto; margin: 0; }
+.howitworks .row { margin: 0; }
+.howit-icon-bx { margin-top: 0px; }
+.secend-howit { padding: 25px 0; border-bottom: 2px solid #fff; border-top: 2px solid #fff; margin-bottom: 25px; }
+.secend-howit-last { border-bottom: 0px; margin-bottom: 0 !important; }
+.featu-emplo { padding: 30px 0; }
+.owl-prev { left: 0; background-color: rgba(0,0,0,0.5); width: 40px; height: 40px; background-position: 13px 11px; }
+.owl-prev:hover { background-position: 13px 11px; }
+.owl-next { right: 0; background-color: rgba(0,0,0,0.5); width: 40px; height: 40px; background-position: 15px 11px; }
+.owl-next:hover { background-position: 15px 11px; }
+.client-testi { padding: 30px 0; }
+.client-testi .container { width: 100%; }
+.arrow-lt-client { margin-left: 0; }
+.client-testi .item p { width: 100%; font-size: 15px; }
+.contact-section { padding: 30px 0; }
+.contact-section .container { width: 100%; }
+.submit-btn { width: 289px; }
+.h1title em { margin: 0 auto; display: table; }
+.featu-emplo .owl-carousel .owl-item img { margin: 0 auto !important }
+.home-banner .container { padding: 0; width: 100%; }
+.home-banner-cnt { margin-left: 15px; margin-right: 15px; width: auto; }
+.home-banner .navbar-brand { margin-left: 15px; }
+.home-block .navbar-brand > img { width: 75%; }
+.featu-logo-box { border: 0; }
+.featu-emplo .item { border-right: 0px; }
+.banner-cnt-lt { float: left; }
+.post-job.fr { float: right !important; clear: none; margin-top: -12px; }
+a.editable { padding-right: 0; }
+.case-study .owl-prev { left: -10px; }
+.case-study .owl-next { right: -10px; }
+.value-benefit { width: auto; }
+.value-benefit-1, .value-benefit-2, .value-benefit-3, .value-benefit-4 { position: inherit; top: inherit; left: 0; text-align: center; margin-bottom: 30px; width: auto; }
+.value-benefit-cnt { background: none; margin: 0; }
+.case-study { padding: 30px 0; }
+.profile-half .btn-cmn-sml { margin-bottom: 10px; }
+.profile-half.fr { padding-top: 12px; }
+.jobpost-l a { margin-left: 5px; margin-right: 5px; }
+}
+@media screen and (min-width:240px) and (max-width:479px) {
+.howit-icon-bx { float: left; margin-right: 15px; }
+.howit-box h3 { width: 60%; float: right; text-align: left; }
+.howit-box p { width: 60%; float: right; text-align: left; }
+.howit-box .col-md-3 { margin-bottom: 25px; margin-left: 0; width: 100%; }
+.howit-box .col-md-3 h3 { margin-top: 0; }
+.secend-howit .howit-icon-bx { margin-top: -36px; float: right; }
+.howit-icon-bx { width: 30%; float: left; }
+.howit-icon-bx img { width: 100%; }
+.howit-box .col-md-3.col-sm-3 { width: 100%; display: inline-block; }
+.secend-howit h3 { float: left; margin-left: 15px; }
+.secend-howit p { float: left; margin-left: 15px; }
+.btn-green .btn-ico { margin-right: 5px; }
+.btn-blue .btn-ico { margin-right: 5px; }
+.jobpost-lst .list-group .list-group-item { padding-left: 0; padding-right: 0; }
+}
+ @media screen and (min-width:480px) and (max-width:639px) {
+.jobpost-detail-blk { width: 50%; float: left; margin-bottom: 5px; text-align: left; }
+.jobpost-detail-blk.txtctr { text-align: right; }
+.frd-cnt-social-btn ul li { width: 250px; margin: 5px auto !important; }
+.sign-box { display: table; float: none; margin: 0 auto; width: 300px; }
+}
+ @media screen and (min-width:569px) and (max-width:767px) {
+.jobpost-detail-blk span { display: inline-block; }
+.jobpost-detail-blk { width: 33%; float: left; margin-bottom: 5px; text-align: center; }
+.jobpost-desc h3, .jobpost-desc ul { display: block; text-align: left; }
+.jobpost-l { width: 50%; float: left; text-align: left; }
+.jobpost-r { width: 50%; float: left; text-align: right; }
+.navbar-form { position: absolute; top: -1px; left: 0; width: 100%; text-align: center; padding: 0 100px 0 220px; }
+.user-profile-l { float: left; margin-right: 10px; }
+.user-profile-r { width: 64%; float: left; }
+h1.page-hd { text-align: left; }
+.profile-half { width: 48%; float: left !important; }
+.btn-cmn-sml { float: right !important; margin-bottom: 0; }
+.profile-half.fr { float: right !important; }
+.frd-cnt-social-btn ul li { width: 31.8%; float: left; margin: 0 !important; }
+.frd-cnt-social-btn ul li.social-mrgn { margin: 0 12px !important; }
+a.google-btn, a.facebook-btn, a.linkedin-btn { font-size: 14px; }
+.frd-lst ul li { width: 48%; float: left; margin: 5px; }
+.frd-img { float: none; margin: auto; margin-bottom: 10px; }
+.frd-det { width: auto; float: none; text-align: center; }
+.frd-lst-det { min-height: 115px; padding: 10px; }
+.frd-srch-blk1 { width: 72%; float: left; margin-right: 10px; margin-bottom: 0; }
+.success-msg { clear: inherit; display: inline-block; margin-top: 0px; }
+.dropdown-menu a { width: auto; float: none; }
+.multiplepost-r { width: 265px; float: none; margin: auto; }
+.postjob-block1 { width: 250px; }
+.postjob-inner { width: 250px; float: left; margin-right: 10px; }
+.postjob-inner-small .mobile-hide { display: block !important; padding-top: 5px; }
+.postjob-inner-small { width: 170px; float: left; }
+.jobpost-l { width: 65%; }
+.jobpost-r { width: 35%; }
+.frd-srch-blk1 { width: 68%; }
+.modal.in .modal-dialog, .modal-content { height: 350px; overflow: hidden; overflow-y: auto; }
+.frd-srch-blk2 { float: right; }
+.userpg-drop.fr { float: right !important; clear: inherit !important; }
+.post-job a, .userpg-drop.fr { margin-top: -10px; }
+a.google-btn, a.facebook-btn, a.linkedin-btn { padding: 0 10px; }
+/*---home page css---*/
+.sign-box { display: table; float: none; margin: 0 auto; width: 300px; }
+.howit-box .col-md-3 { width: 100%; float: left; }
+.client-testi .item p { width: 76%; }
+.banner-cnt-lt { width: 46%; float: left; }
+.banner-cnt-rt { width: 53%; float: right; }
+.home-banner { height: 480px !important; }
+.howit-icon-bx { float: right; margin-right: 15px; }
+.howit-box h3 { width: 74%; float: right; text-align: left; }
+.howit-box p { width: 74%; float: right; text-align: left; }
+.howit-box .col-md-3 { margin-bottom: 25px; margin-left: 0; width: 100%; }
+.howit-box .col-md-3 h3 { margin-top: 32px; }
+.secend-howit .howit-icon-bx { margin-top: -69px; }
+.owl-prev { left: 15px; display: block !important; }
+.owl-next { right: 15px; display: block !important; }
+.secend-howit-last { margin-bottom: 0px !important; }
+.banner-cnt-lt { margin-top: 60px; }
+.value-benefit-1, .value-benefit-2, .value-benefit-3, .value-benefit-4 { width: 50%; float: left; padding: 0 30px; margin: 15px 0; min-height: 165px; }
+.valuebenefit-ico1, .valuebenefit-ico2, .valuebenefit-ico3, .valuebenefit-ico4 { height: 48px; }
+.valuebenefit-desc h4 { font-size: 18px; }
+}

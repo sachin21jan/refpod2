@@ -1,0 +1,254 @@
+<div class="col-md-8 col-sm-8 user-rt">
+    <div class="midcol">
+        <h2 class="pg-hd fl">Jobs Posted</h2>
+        <div class="userpg-drop fr">
+            <div id="dropdown-menu">
+                <select (change)="onChange($event.target.value)">
+                    <option value="1">From Company</option>
+                    <option value="2">From Friends</option>
+                </select>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <div class="page-separator"></div>  
+        <div class="jobpost-lst">
+            <div class="list-group">
+                <div *ngFor="let job of jobs">
+                    <div class="jobpost-lst-cnt">
+                        <div class="list-group-item">
+                            <div class="row-picture">
+                                <img class="circle" src="app/assets/images/lft-logo1-big.png" alt="icon">
+                            </div>
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading fl">{{job.heading}}</h4>
+                                <div class="fr jobpost-time"><i class="fa fa-clock-o"></i> &nbsp;{{job.timeElapsed}} hours ago</div>
+                                <div class="clr"></div>
+                                <div class="jobpost-detail">
+                                    <div class="jobpost-detail-blk"><span>Position :</span> {{job.position}}</div>
+                                    <div class="jobpost-detail-blk txtctr"><span>Experience :</span> {{job.experience}} years</div>
+                                    <div class="jobpost-detail-blk txtrht"><span *ngIf="job.company">Company :</span> {{job.company}}</div>
+                                    <div class="clr"></div>
+                                </div>
+                                <div class="jobpost-desc">
+                                    <h3>Responsibilities</h3>
+                                    <ul>
+                                        <li *ngFor = "let skill of job.skillRequirements ; let i=index">
+                                            {{skill}} 
+                                            <!--<div *ngIf="i >= 3">
+                                                <a href="#" class="moredetails-link">More Details</a>
+                                            </div>
+                                            -->
+                                        </li>                                        
+                                        
+                                    </ul>
+                                    <div class="jobpost-btn">
+                                        <div class="jobpost-l">
+                                            <a href="javascript:void(0)" id="" class="jobforward open-refer-frd btn btn-raised btn-primary open-list-btn btn-blue">
+                                                <span class="btn-ico">
+                                                    <i class="fa fa-mail-forward"></i>
+                                                </span>
+                                                Job Forward
+                                            </a>
+                                            <a href="javascript:void(0)" id="" class="referral btn btn-raised btn-primary btn-referral btn-blue" style="display:none;">
+                                            <span class="btn-ico"><i class="fa fa-dollar"></i></span>
+                                                Referral
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-raised btn-primary green-btn btn-green">
+                                                <span class="btn-ico"><i class="fa fa-check"></i></span>Job Apply
+                                            </a>
+                                        </div>
+                                        <div class="jobpost-r"><a (click)="addToFavorites(job.heading)" style="cursor:pointer">+ Add to Favorites</a></div>
+                                        <div class="clr"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="refer-frd-cnt frd-cnt frnd-list" style="display: none;">
+                            <div class="rlatv">
+                                <a href="javascript:;" class="open-refer-frd close-ico close-frnd-list">
+                                    <i class="fa fa-times-circle"></i>
+                                </a>
+                            </div>
+                            <div class="frd-srch">
+                                <div class="frd-srch-blk1"><input class="form-control" type="text" placeholder="Search"><a class="srch-ico" href="javascript:;"><span><i class="fa fa-search"></i></span></a></div>
+                                <div class="frd-srch-blk2"><a href="javascript:void(0)" class="btn btn-default" data-toggle="modal" data-target="#complete-dialog">Add Friends</a></div>
+                                <div class="clr"></div>
+                            </div>
+                            <div class="frd-lst">
+                                <ul>
+                                    <li>
+                                        <div class="frd-lst-det">
+                                            <div class="frd-img">
+                                                <img src="app/assets/images/frd-img1.png">
+                                                <span class="gplus-ico">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <div class="frd-det">
+                                                <a href="#" class="top-remove"><i class="fa fa-remove"></i></a>
+                                                <h3>George Thompson</h3>
+                                                <div class="frd-desc">
+                                                    <div class="position">JAVA Developer</div>
+                                                    <div class="experience">Experience : 4+ Year</div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="frd-lst-action frd-lst-full">
+                                            <a href="javascript:void(0)" class="btn btn-default active select-btn">
+                                            <i class="fa fa-check"></i>
+                                                Select
+                                            </a> 
+                                            <a href="javascript:void(0)" class="btn btn-default cancel-btn" style="display: none;">
+                                                <i class="fa fa-remove"></i> 
+                                                Cancel
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="frd-lst-det">
+                                            <div class="frd-img">
+                                                <img src="app/assets/images/frd-img2.png">
+                                                <span class="facebook-ico">
+                                                    <i class="fa fa-facebook"></i>
+                                                </span>
+                                            </div>
+                                            <div class="frd-det">
+                                                <a href="#" class="top-remove"><i class="fa fa-remove"></i></a>
+                                                <h3>George Thompson</h3>
+                                                <div class="frd-desc">
+                                                    <div class="position">JAVA Developer</div>
+                                                    <div class="experience">Experience : 4+ Year</div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="frd-lst-action frd-lst-full">
+                                            <a href="javascript:void(0)" class="btn btn-default active select-btn">
+                                                <i class="fa fa-check"></i> 
+                                                Select
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-default cancel-btn" style="display: none;">
+                                                <i class="fa fa-remove"></i> 
+                                                Cancel
+                                            </a> 
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="frd-lst-det">
+                                            <div class="frd-img"><img src="app/assets/images/frd-img3.png"> <span class="linkedin-ico"><i class="fa fa-linkedin"></i></span></div>
+                                            <div class="frd-det">
+                                                <a href="#" class="top-remove"><i class="fa fa-remove"></i></a>
+                                                <h3>George Thompson</h3>
+                                                <div class="frd-desc">
+                                                    <div class="position">JAVA Developer</div>
+                                                    <div class="experience">Experience : 4+ Year</div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="frd-lst-action frd-lst-full">
+                                            <a href="javascript:void(0)" class="btn btn-default active select-btn">
+                                                <i class="fa fa-check"></i> 
+                                                Select
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-default cancel-btn" style="display: none;">
+                                                <i class="fa fa-remove"></i> Cancel
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="frd-lst-det">
+                                            <div class="frd-img">
+                                                <img src="app/assets/images/frd-img4.png">
+                                                <span class="gplus-ico">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <div class="frd-det">
+                                                <a href="#" class="top-remove"><i class="fa fa-remove"></i></a>
+                                                <h3>George Thompson</h3>
+                                                <div class="frd-desc">
+                                                    <div class="position">JAVA Developer</div>
+                                                    <div class="experience">Experience : 4+ Year</div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="frd-lst-action frd-lst-full"><a href="javascript:void(0)" class="btn btn-default active select-btn"><i class="fa fa-check"></i> Select</a> <a href="javascript:void(0)" class="btn btn-default cancel-btn" style="display: none;"><i class="fa fa-remove"></i> Cancel</a> </div>
+                                    </li>
+                                    <li>
+                                        <div class="frd-lst-det">
+                                            <div class="frd-img">
+                                                <img src="app/assets/images/frd-img5.png">
+                                                <span class="facebook-ico">
+                                                    <i class="fa fa-facebook"></i>
+                                                </span>
+                                            </div>
+                                            <div class="frd-det">
+                                                <a href="#" class="top-remove"><i class="fa fa-remove"></i></a>
+                                                <h3>George Thompson</h3>
+                                                <div class="frd-desc">
+                                                    <div class="position">JAVA Developer</div>
+                                                    <div class="experience">Experience : 4+ Year</div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="frd-lst-action frd-lst-full">
+                                            <a href="javascript:void(0)" class="btn btn-default active select-btn">
+                                                <i class="fa fa-check"></i> 
+                                                Select
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-default cancel-btn" style="display: none;">
+                                                <i class="fa fa-remove"></i> 
+                                                Cancel
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="frd-lst-det">
+                                            <div class="frd-img">
+                                                <img src="app/assets/images/frd-img6.png">
+                                                <span class="linkedin-ico">
+                                                    <i class="fa fa-linkedin"></i>
+                                                </span>
+                                            </div>
+                                            <div class="frd-det">
+                                                <a href="#" class="top-remove"><i class="fa fa-remove"></i></a>
+                                                <h3>George Thompson</h3>
+                                                <div class="frd-desc">
+                                                    <div class="position">JAVA Developer</div>
+                                                    <div class="experience">Experience : 4+ Year</div>
+                                                </div>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="frd-lst-action frd-lst-full">
+                                            <a href="javascript:void(0)" class="btn btn-default active select-btn">
+                                                <i class="fa fa-check"></i> 
+                                                Select
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-default cancel-btn" style="display: none;">
+                                                <i class="fa fa-remove"></i> 
+                                                Cancel
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="clr"></div>
+                                <div class="request-btn">
+                                    <a href="javascript:void(0)" class="btn btn-raised btn-primary">Send to Friend</a> 
+                                    <span class="success-msg">Successfully Sent...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-separator"></div>
+                </div>
+                <div class="load-more"><img alt="" src="app/assets/images/load-more.gif"></div>                        
+            </div>                  
+        </div>
+    </div>
+</div>
